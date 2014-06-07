@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"    lang="en">  <head>    <title>Calendar</title>
+    <link rel="StyleSheet" href="Calendar.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="Calendar.js"></script>   </head>
+  <body>
+  	<div class="main">
+  		<h1 class="title">Calendars</h1>
+  		<h2 class="subtitle">Current Month</h2>
+  		<div id="current">
+  			<script type="text/javascript">
+			//<![CDATA[
+			var calendar_curr = new Calendar("current");
+			calendar_curr.render(new Date());
+			//]]>
+			</script>
+  		</div>
+  		<h2 class="subtitle">January, 2009</h2>
+  		<div id="jan2009">
+  			<script type="text/javascript">
+			//<![CDATA[
+			var calendar_jan = new Calendar("jan2009");
+			calendar_jan.render(new Date("January 1, 2009"));
+			//]]>
+			</script>
+  		</div>
+  	</div>
+  </body>
+</html>

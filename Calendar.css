@@ -1,0 +1,69 @@
+body, h1, h2 {
+	font-family: HelveticaNeue;
+	font-weight: lighter;
+}
+
+.main {
+	width: 960px;
+	margin-left: auto;	
+	margin-right: auto;
+}
+
+.title {
+	text-align: center;	
+}
+
+.subtitle {
+	text-align: center;
+	font-style: italic;	
+}
+
+.calendar {
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;	
+	border: 2px solid black;
+}
+
+.month_year {
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+	color: white;	
+	font-size: 16pt;
+}
+
+.day {
+	padding: 20px;
+	width: 130px;
+	text-align: center;	
+}
+
+.day:hover {
+	color: rgb(65, 105, 225);
+	background-color: rgb(245, 245, 245);	
+}
+
+.week {
+	padding: 10px;
+	color: white;
+	background-color: rgb(205, 92, 92);	
+}
+
+.other {
+	color: rgb(205, 205, 205);	
+}
+
+.other:hover {
+	color: rgb(145, 145, 145);	
+}
+
+.left:hover {
+	cursor: pointer;
+}
+
+.right:hover {
+	cursor: pointer;
+}
+
